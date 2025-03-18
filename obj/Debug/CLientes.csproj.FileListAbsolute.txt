@@ -1,0 +1,10 @@
+C:\Users\leo-s\Desktop\Cadastro Clientes\CLientes\bin\Debug\CLientes.exe.config
+C:\Users\leo-s\Desktop\Cadastro Clientes\CLientes\bin\Debug\CLientes.exe
+C:\Users\leo-s\Desktop\Cadastro Clientes\CLientes\bin\Debug\CLientes.pdb
+C:\Users\leo-s\Desktop\Cadastro Clientes\CLientes\obj\Debug\CLientes.csproj.AssemblyReference.cache
+C:\Users\leo-s\Desktop\Cadastro Clientes\CLientes\obj\Debug\CLientes.Login.resources
+C:\Users\leo-s\Desktop\Cadastro Clientes\CLientes\obj\Debug\CLientes.Properties.Resources.resources
+C:\Users\leo-s\Desktop\Cadastro Clientes\CLientes\obj\Debug\CLientes.csproj.GenerateResource.cache
+C:\Users\leo-s\Desktop\Cadastro Clientes\CLientes\obj\Debug\CLientes.csproj.CoreCompileInputs.cache
+C:\Users\leo-s\Desktop\Cadastro Clientes\CLientes\obj\Debug\CLientes.exe
+C:\Users\leo-s\Desktop\Cadastro Clientes\CLientes\obj\Debug\CLientes.pdb
