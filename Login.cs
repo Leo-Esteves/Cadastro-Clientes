@@ -19,7 +19,9 @@ namespace CLientes
 
         private void btn_entrar_Click(object sender, EventArgs e)
         {
-
+            // antes da logica de conparação de login
+            Menu TelaMenu = new Menu();
+            TelaMenu.ShowDialog();
         }
     }
 }
