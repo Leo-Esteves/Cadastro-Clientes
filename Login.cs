@@ -22,6 +22,20 @@ namespace CLientes
             // antes da logica de conparação de login
             Menu TelaMenu = new Menu();
             TelaMenu.ShowDialog();
+
+        private void Login_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.KeyCode)
+            {
+                case Keys.Enter:
+                    e.SuppressKeyPress = true;
+                    this.SelectNextControl(ActiveControl, !e.Shift, true, true, true);
+                    break;
+
+                case Keys.Escape:
+                    Application.Exit();
+                    break;
+            }
         }
     }
 }
