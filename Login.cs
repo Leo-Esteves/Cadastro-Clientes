@@ -26,6 +26,9 @@ namespace CLientes
 
             TelaMenu.ShowDialog();
 
+            Application.Exit();
+        }
+
         private void Login_KeyDown(object sender, KeyEventArgs e)
         {
             switch (e.KeyCode)
