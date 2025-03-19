@@ -43,5 +43,10 @@ namespace CLientes
                     break;
             }
         }
+
+        private void btn_sair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
