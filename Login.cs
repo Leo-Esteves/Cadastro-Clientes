@@ -21,6 +21,9 @@ namespace CLientes
         {
             // antes da logica de conparação de login
             Menu TelaMenu = new Menu();
+
+            this.Hide();
+
             TelaMenu.ShowDialog();
 
         private void Login_KeyDown(object sender, KeyEventArgs e)
