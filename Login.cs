@@ -23,5 +23,10 @@ namespace CLientes
             Menu TelaMenu = new Menu();
             TelaMenu.ShowDialog();
         }
+
+        private void btn_sair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -36,6 +36,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_sair = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -111,6 +112,18 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // btn_sair
+            // 
+            this.btn_sair.BackColor = System.Drawing.Color.Red;
+            this.btn_sair.ForeColor = System.Drawing.Color.White;
+            this.btn_sair.Location = new System.Drawing.Point(92, 217);
+            this.btn_sair.Name = "btn_sair";
+            this.btn_sair.Size = new System.Drawing.Size(72, 23);
+            this.btn_sair.TabIndex = 5;
+            this.btn_sair.Text = "Sair";
+            this.btn_sair.UseVisualStyleBackColor = false;
+            this.btn_sair.Click += new System.EventHandler(this.btn_sair_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -118,6 +131,7 @@
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.BackgroundImage = global::CLientes.Properties.Resources.Cinza;
             this.ClientSize = new System.Drawing.Size(290, 244);
+            this.Controls.Add(this.btn_sair);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_entrar);
@@ -147,6 +161,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btn_sair;
     }
 }
 
