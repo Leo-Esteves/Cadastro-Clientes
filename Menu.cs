@@ -17,6 +17,13 @@ namespace CLientes
             InitializeComponent();
         }
 
-        
+        private void Clientes_menu_Click(object sender, EventArgs e)
+        {
+            
+            FrmCadClientes frm = new FrmCadClientes();
+            frm.MdiParent = this;  // Abrindo o forms dentro do menu cad
+            frm.Show();// Abrindo o forms dentro do menu cad
+            
+        }
     }
 }

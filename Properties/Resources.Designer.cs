@@ -83,6 +83,16 @@ namespace CLientes.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cinza1 {
+            get {
+                object obj = ResourceManager.GetObject("Cinza1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap userpassword_deusuari_787 {
             get {
                 object obj = ResourceManager.GetObject("userpassword_deusuari_787", resourceCulture);
